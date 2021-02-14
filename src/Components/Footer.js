@@ -70,12 +70,12 @@ const Footer = () => {
                 <h1 id="move-left" class="stay">Connect with Us</h1>
                 <div class="Icons">
                     <div class="top-row">
-                        <a href=""><img src={facebook} alt="" /></a>
-                        <a href=""><img src={ig} alt="" /></a>
+                        <a href="https://www.facebook.com/thechaitanyagalande/"><img src={facebook} alt="" /></a>
+                        <a href="https://www.instagram.com/mi_ahe_chaitanya/"><img src={ig} alt="" /></a>
                     </div>
                     <div className="bottom-row">
-                        <a href=""><img src={tw} alt=""/></a>
-                        <a href=""><img src={li} alt=""/></a>
+                        <a href="https://twitter.com/mi_ahe_chaitany"><img src={tw} alt=""/></a>
+                        <a href="https://www.linkedin.com/in/chaitanya-galande-96a491134/"><img src={li} alt=""/></a>
                     </div>
                 </div>
             </div>
