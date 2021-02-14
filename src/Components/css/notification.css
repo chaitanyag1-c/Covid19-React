@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+  }
+  #kaka{
+    background-color: aliceblue;
+    /* height: 50vh; */
+    /* z-index: 999; */
+    transform: translateY(113px);
+    height: 700vh;
+  }
+  .badge{
+    display: flex;
+    
+  }
+  
+  .trn {
+    
+    background: white;
+      color: black;
+  }
+  /* td {
+    background: hotpink;
+    border:1px solid black;
+    
+  } */
+  .table{
+    display: inline-block;
+    font-size: 16px;
+    background: deepskyblue;
+    color: white;
+    margin-top: 5px;
+  }
+  .text-align{
+    text-align:center;
+    color:deeppink;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+  }
+  .bt{
+    width:17%;
+    background:white;
+    border:none;
+    border:1px solid dodgerblue;
+    transition: all 0.3s ease-in ;
+    font-size: 24px;
+    color: dodgerblue;
+    transform: translateX(490px);
+  }
+  .bt:hover{
+    color: white;
+    background:dodgerblue;
+  cursor: pointer;
+  border:none;
+  }
+  .date{
+      background: hotpink;
+  }

@@ -1,0 +1,170 @@
+footer {
+    background: aliceblue;
+    height: 30vh
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer-ul {
+    display: flex;
+    width: 70%;
+}
+
+footer img {
+    width: 5%;
+    transition: all 0.2s ease-in;
+}
+
+
+
+footer img:hover {
+    transform: translateY(-4px) scale(1.02);
+}
+
+.stay {
+    font-size: 28px;
+    font-family: monospace;
+    color: dodgerblue !important;
+}
+
+footer h1 {
+    color: black;
+    font-size: 18px;
+}
+
+.contact {
+    width: 35%;
+    margin-left: 22px;
+}
+
+.stay2 {
+    color: gray;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+}
+
+.menu a {
+    
+    padding: 6px;
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background: tomato; */
+    
+}
+.Icons{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    position: relative;
+    left: 459px;
+}
+.top-row a{
+    margin:5px;
+    padding:5px;
+}
+.bottom-row{
+    margin-top: 20px;
+}
+.bottom-row a{
+    margin:5px;
+    padding:5px;
+}
+#move-left{
+    margin-right: 96px;
+}
+.footer-subscribe{
+    height: 40vh;
+    /* background: url(..jpg)no-repeat center center/cover; */
+    background: url('../images/newsletter.jpg') no-repeat center center/cover;
+opacity: 0.8;
+}
+.footer-subscribe h1{
+    font-size: 30px;
+    color: white;
+font-family: monospace;
+}
+.subscribe-text{
+background: dodgerblue;
+display: inline-block;
+
+margin: 22px;
+
+}
+.footer-subscribe input{
+width: 500px;
+height: 32px;
+font-size: 1.2rem;
+color: dodgerblue;
+}
+
+.footer-subscribe {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#footer-bt{
+color: white;
+background:dodgerblue;
+height: 40px;
+width: 92px;
+border: 2px solid mediumseagreen;
+margin: 7px;
+transition: all 0.2s ease-in;
+}
+#footer-bt:hover{
+border:none;
+cursor: pointer;
+color:dodgerblue;
+background: white;
+border-radius: 0;
+}
+.credits{
+    color: dodgerblue;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+.credits:hover{
+    transform: scale(1.02);
+}
+.popup h2{
+    font-family: 'Ubuntu';
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .popc{
+    background-color: red;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: 0px;
+  }
+  .popc:hover{
+    cursor: pointer;
+    }
+  .popup{
+    position: absolute;
+    right: 400px;
+    top:270px;
+    display: none;
+  }
+  .menu a:hover{
+      color: dodgerblue;
+  }

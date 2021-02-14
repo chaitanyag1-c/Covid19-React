@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background: aliceblue;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #69C401;
+    border-radius: 3%;
+  
+  }
+  header{
+    background: linear-gradient(62deg, white, aliceblue);
+    height:60px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Black Ops One', cursive; */
+  font-size: 23px;
+  height: 100px;
+  position: fixed;
+  width: 100%;    
+  z-index: 2;
+  top:0px;
+  font-family: 'Ubuntu',monospace;
+  }
+  .ulhead{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: flex-start;
+  }
+  .nav-items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* background: aliceblue; */
+    position: absolute;
+    right: 2px;
+    /* width: 667px; */
+    margin: 0px;
+    height: 60px;
+    top: 15px;
+    
+  }
+  .nav-items>li{
+  list-style: none;
+  padding:15px;
+  transition: all 0.4s ease-in;
+  margin-left: 25px;
+  }
+  
+  .nav-items>li>a{
+    text-decoration: none;
+    color:deeppink;
+    font-size: 20px
+  }
+  .nav-items>li:hover{
+    transform: translate(2px,2px);
+    
+  }
+  

@@ -1,0 +1,39 @@
+.hero-text{
+    display: inline-block;
+
+position: absolute;
+right: 70px;
+top: 250px;
+font-family: monospace;
+
+}
+.hero-container{
+    height: 97vh;
+}
+.hero-container::before{
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 96vh;
+    width: 100vw;
+    /* opacity: 0.8; */
+    z-index: -1;
+}
+.hero-heading{
+text-transform: capitalize;
+color: #dd3163;
+background:aliceblue;
+font-size: 3.5rem;
+}
+.hero-slogan{
+    background:aliceblue;
+text-transform: capitalize;
+color: #dd3163;
+font-size: 3.3rem;
+
+}
+.highlight{
+color: #69C401;
+}
